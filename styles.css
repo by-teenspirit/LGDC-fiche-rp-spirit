@@ -1,5 +1,4 @@
 .fiche-rp-spirit-1 {
-  all: initial;
   background-color: #fef8d3;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
@@ -11,7 +10,7 @@
 }
 
 /* HEADER */
-.fiche-rp-spirit-1 .header {
+.fiche-rp-spirit-1 .header-spirit {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
@@ -20,14 +19,14 @@
   height: 250px;
 }
 
-.fiche-rp-spirit-1 .header img {
+.fiche-rp-spirit-1 .header-spirit img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.fiche-rp-spirit-1 .header .overlay {
+.fiche-rp-spirit-1 .header-spirit .overlay-spirit {
   position: absolute;
   inset: 0;
   background: linear-gradient(
@@ -37,7 +36,7 @@
   );
 }
 
-.fiche-rp-spirit-1 .header .overlay.v2 {
+.fiche-rp-spirit-1 .header-spirit .overlay-spirit.v2 {
   background: linear-gradient(
     to bottom,
     rgba(253, 154, 185, 1) 0%,
@@ -48,7 +47,7 @@
 }
 
 /* FEAT */
-.fiche-rp-spirit-1 .feat {
+.fiche-rp-spirit-1 .feat-spirit {
   background-color: #fef8d3;
   padding: 8px 10px;
   position: absolute;
@@ -61,13 +60,13 @@
   border-radius: 5px;
 }
 
-.fiche-rp-spirit-1 .feat.v2 {
+.fiche-rp-spirit-1 .feat-spirit.v2 {
   position: static;
   background-color: white;
 }
 
 /* TITLE */
-.fiche-rp-spirit-1 .title {
+.fiche-rp-spirit-1 .title-spirit {
   text-align: center;
   font-size: 25px;
   font-family: "La Belle Aurore", cursive;
@@ -75,13 +74,13 @@
   margin: 20px 40px;
 }
 
-.fiche-rp-spirit-1 .title.v2 {
+.fiche-rp-spirit-1 .title-spirit.v2 {
   text-align: right;
   margin-bottom: 0;
 }
 
 /* CONTENT */
-.fiche-rp-spirit-1 .content {
+.fiche-rp-spirit-1 .content-spirit {
   background-color: #f0ecd3;
   margin: 0 25px 25px;
   font-size: 12px;
@@ -92,14 +91,14 @@
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
-.fiche-rp-spirit-1 .content.v2 {
+.fiche-rp-spirit-1 .content-spirit.v2 {
   background-color: transparent;
   box-shadow: none;
   padding: 10px;
 }
 
 /* FOOTER */
-.fiche-rp-spirit-1 .footer {
+.fiche-rp-spirit-1 .footer-spirit {
   background: linear-gradient(to right, #ffdfe9, #ffcfb0);
   display: flex;
   align-items: center;
@@ -107,17 +106,17 @@
   padding: 15px 25px;
 }
 
-.fiche-rp-spirit-1 .footer.v2 {
+.fiche-rp-spirit-1 .footer-spirit.v2 {
   background: #fd9ab9;
 }
 
-.fiche-rp-spirit-1 .footer .place {
+.fiche-rp-spirit-1 .footer-spirit .place-spirit {
   flex: 1;
   font-size: 12px;
   text-align: right;
 }
 
-.fiche-rp-spirit-1 .footer .icon {
+.fiche-rp-spirit-1 .footer-spirit .icon-spirit {
   padding: 5px;
   border-radius: 100px;
   background-color: #fff;
@@ -128,7 +127,7 @@
   align-items: center;
 }
 
-.fiche-rp-spirit-1 .footer .icon span.material-symbols-outlined {
+.fiche-rp-spirit-1 .footer-spirit .icon-spirit span.material-symbols-outlined {
   font-size: 20px;
 }
 
