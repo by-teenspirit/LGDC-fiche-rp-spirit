@@ -1,7 +1,7 @@
 .fiche-rp-spirit-1 {
   background-color: #fef8d3;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-  margin: 10px;
+  margin: auto;
   font-family: "Inter", sans-serif;
   color: #333;
   width: 500px;
@@ -72,6 +72,7 @@
   font-family: "La Belle Aurore", cursive;
   line-height: 1.2;
   margin: 20px 40px;
+  color: #333;
 }
 
 .fiche-rp-spirit-1 .title-spirit.v2 {
